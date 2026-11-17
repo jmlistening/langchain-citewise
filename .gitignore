@@ -1,0 +1,26 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environment and tool caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Runtime index (never commit generated data)
+.citewise/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# OS noise
+.DS_Store
+Thumbs.db

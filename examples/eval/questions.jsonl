@@ -1,0 +1,8 @@
+{"question": "What is the primary mirror made of and how is it cleaned?", "relevant_sources": ["corpus/telescope.md"], "expected_terms": ["borosilicate glass", "CO2 snow"]}
+{"question": "What happens during the winter closure?", "relevant_sources": ["corpus/operations.md"], "expected_terms": ["January 15", "February 28"]}
+{"question": "How can schools join the citizen science program?", "relevant_sources": ["corpus/outreach.md"], "expected_terms": ["NightWatch Classroom", "March 1"]}
+{"question": "What weather conditions stop observing?", "relevant_sources": ["corpus/operations.md"], "expected_terms": ["45 km/h", "85 percent", "-25"]}
+{"question": "Which instruments are mounted on the telescope?", "relevant_sources": ["corpus/telescope.md"], "expected_terms": ["ARCFIELD", "POLARIS", "GLINT"]}
+{"question": "What is the observatory's dark-sky policy?", "relevant_sources": ["corpus/outreach.md"], "expected_terms": ["full-cutoff", "3000 K"]}
+{"question": "Where is the observatory located and how high is it?", "relevant_sources": ["corpus/observatory-overview.md"], "expected_terms": ["2,140 m", "Lake Harrow"]}
+{"question": "How many nights per year does the observatory observe, and how is telescope time allocated?", "relevant_sources": ["corpus/operations.md"], "expected_terms": ["210", "70 percent"]}

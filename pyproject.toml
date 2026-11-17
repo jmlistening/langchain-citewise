@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "citewise"
+version = "0.1.0"
+description = "Citation-grounded RAG over your documents: modern LangChain LCEL, hybrid retrieval, offline-first demos."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "HappyJM" }]
+keywords = ["rag", "langchain", "retrieval", "citations", "bm25", "lcel"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "langchain-core>=1.8.1,<2",
+    "langchain-text-splitters>=1.1.3,<2",
+    "numpy>=2.0,<3",
+    "rank-bm25>=0.2.2,<1",
+    "rich>=13.7,<16",
+]
+
+[project.optional-dependencies]
+openai = ["langchain-openai>=1.8.0,<2"]
+pdf = ["pypdf>=5,<8"]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[project.scripts]
+citewise = "citewise.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/citewise"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
