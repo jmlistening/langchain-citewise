@@ -4,7 +4,7 @@
   <img src="assets/banner.png" alt="CiteWise — citation-grounded RAG with hybrid retrieval / 可溯源引用的混合检索 RAG 工作台" width="100%">
 </p>
 
-[简体中文](README.zh-CN.md)
+[简体中文](README.zh-CN.md) · English
 
 [![CI](https://github.com/jmlistening/langchain-citewise/actions/workflows/ci.yml/badge.svg)](https://github.com/jmlistening/langchain-citewise/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
