@@ -1,5 +1,9 @@
 # CiteWise
 
+<p align="center">
+  <img src="assets/banner.png" alt="CiteWise — citation-grounded RAG with hybrid retrieval / 可溯源引用的混合检索 RAG 工作台" width="100%">
+</p>
+
 [简体中文](README.zh-CN.md)
 
 [![CI](https://github.com/jmlistening/langchain-citewise/actions/workflows/ci.yml/badge.svg)](https://github.com/jmlistening/langchain-citewise/actions/workflows/ci.yml)
@@ -189,6 +193,7 @@ langchain-citewise/
 ├── .env.example
 ├── .github/workflows/ci.yml
 ├── .gitignore
+├── assets/banner.png
 ├── LICENSE
 ├── README.md
 ├── README.zh-CN.md
