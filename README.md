@@ -229,10 +229,10 @@ CI runs the same three commands on Ubuntu and Windows with Python 3.13.
 
 ## Demo
 
-Ingest the sample corpus, then ask a question and get an answer with numbered citations.
+Ingest the sample corpus, score retrieval on the labeled questions, then ask a multi-source question and get an answer with numbered citations.
 
 <p align="center">
-  <img src="assets/demo.gif" alt="Terminal recording of a real offline run: ingest the sample corpus, ask a question, and get an answer with numbered citations." width="100%">
+  <img src="assets/demo.gif" alt="Terminal recording: ingest the sample corpus, score retrieval on 8 labeled questions, then answer a multi-source question with numbered citations." width="100%">
 </p>
 
 <p align="center"><sub>Recorded from a real offline run — no API key.</sub></p>

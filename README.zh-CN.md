@@ -229,10 +229,10 @@ CI 会在 Ubuntu 与 Windows、Python 3.13 上运行同样的三条命令。
 
 ## 演示
 
-先导入示例语料，再离线提问，得到带编号引用的回答。
+导入示例语料，在带标注的问题上评估检索指标，再提一个跨文档问题，得到带编号引用的回答。
 
 <p align="center">
-  <img src="assets/demo.gif" alt="终端实录：导入示例语料，离线提问，得到带编号引用的回答。" width="100%">
+  <img src="assets/demo.gif" alt="终端实录：导入示例语料，在标注问题上评估检索，再回答一个跨文档问题，并给出带编号的引用。" width="100%">
 </p>
 
 <p align="center"><sub>真实离线运行录制，无需 API Key。</sub></p>
