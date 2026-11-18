@@ -13,6 +13,12 @@
 
 **基于文档、带引用溯源的 RAG - 使用现代 LangChain LCEL、混合检索，并支持完全离线的演示。**
 
+<p align="center">
+  <img src="assets/demo.gif" alt="终端实录：导入示例语料，离线提问，得到带编号引用的回答。" width="100%">
+</p>
+
+<p align="center"><sub>真实离线运行录制，无需 API Key。</sub></p>
+
 - 混合检索：BM25 与向量检索通过倒数排名融合（RRF）合并。
 - 有据可查的回答：离线抽取式回答会为每个选中的句子追加 `[n]` 引用；在线回答会被要求逐条标注引用，且引用编号会与实际检索到的段落核对（完全没有引用的回答与越界编号会给出警告）。
 - 无需密钥：默认的哈希嵌入和抽取式回答器完全离线运行。
@@ -194,6 +200,7 @@ langchain-citewise/
 ├── .github/workflows/ci.yml
 ├── .gitignore
 ├── assets/banner.png
+├── assets/demo.gif
 ├── LICENSE
 ├── README.md
 ├── README.zh-CN.md

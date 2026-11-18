@@ -13,6 +13,12 @@
 
 **Citation-grounded RAG over your documents - modern LangChain LCEL, hybrid retrieval, offline-first demos.**
 
+<p align="center">
+  <img src="assets/demo.gif" alt="Terminal recording of a real offline run: ingest the sample corpus, ask a question, and get an answer with numbered citations." width="100%">
+</p>
+
+<p align="center"><sub>Recorded from a real offline run — no API key.</sub></p>
+
 - Hybrid retrieval: BM25 and vector search are fused with reciprocal rank fusion (RRF).
 - Grounded answers: offline extractive answers append a `[n]` citation to every selected sentence; online answers are prompted to cite every claim, and citation numbers are validated against the retrieved passages (answers with no citations and invalid numbers are reported as warnings).
 - No-key demo: the default hashing embeddings and the extractive answerer work fully offline.
@@ -194,6 +200,7 @@ langchain-citewise/
 ├── .github/workflows/ci.yml
 ├── .gitignore
 ├── assets/banner.png
+├── assets/demo.gif
 ├── LICENSE
 ├── README.md
 ├── README.zh-CN.md
